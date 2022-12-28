@@ -15,18 +15,10 @@
     class Main extends Controller{
 
         /**
-         * This method will be called before any other methods from this controller.
-         */
-        public function init(){
-            //
-        }
-
-        /**
          * Index action.
          */
         public function index(){
-            // Renders the starting page
-            $this->renderView('index');
+            $this->response->setBody('Glowie is awesome!');
         }
 
     }

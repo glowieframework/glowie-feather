@@ -1,6 +1,6 @@
 {
     "name": "glowieframework/glowie-feather",
-    "description": "Powerful and lightweight PHP framework",
+    "description": "Clean starter kit for Glowie Framework",
     "type": "project",
     "license": "MIT",
     "keywords": [
