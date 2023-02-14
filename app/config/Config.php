@@ -126,6 +126,14 @@
 
         ],
 
+        // Cache settings
+        'cache' => [
+
+            // Cache file path
+            'path' => Util::location('storage/cache/cache.tmp')
+
+        ],
+
         // Cross-Origin Resource Sharing (CORS) settings
         'cors' => [
 
