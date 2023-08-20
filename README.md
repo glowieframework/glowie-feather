@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://glowie.tk" target="_blank"><img src="https://i.imgur.com/z8nq945.png" alt="Glowie" width="250"/></a>
+    <a href="https://eugabrielsilva.tk/glowie" target="_blank"><img src="https://i.imgur.com/z8nq945.png" alt="Glowie" width="250"/></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ Glowie Feather is a starter kit for Glowie Framework with only the bare minimum 
 If you want a more complete starter kit, with examples and demos of the main features, check <a href="https://github.com/glowieframework/glowie">this repo</a>.
 
 ## Getting started
-[Explore the documentation](https://glowie.tk/docs) to know how to start using Glowie to create something awesome.
+[Explore the documentation](https://eugabrielsilva.tk/glowie/docs) to know how to start using Glowie to create something awesome.
 
 ## Credits
 Glowie is currently being developed by [Gabriel Silva](https://eugabrielsilva.tk).
