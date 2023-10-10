@@ -8,6 +8,8 @@
 # ------------------------------------------------------------------------------
 
 RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^.*$ - [NC,L]
+
 RewriteRule ^.*$ index.php [NC,L]

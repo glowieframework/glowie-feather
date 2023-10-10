@@ -14,6 +14,9 @@
 
     return [
 
+        // Current environment name
+        'env' => Env::get('APP_ENV', 'development'),
+
         // Application maintenance mode
         'maintenance' => [
 
@@ -183,7 +186,7 @@
         'other' => [
 
             // Default language
-            'language' => null,
+            'language' => 'en',
 
             // Default timezone
             'timezone' => 'America/Sao_Paulo',

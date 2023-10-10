@@ -10,7 +10,7 @@
         Use the Rails class in order to configure routing.
     */
 
-    // Index
+    // Home
     Rails::addRoute('/', Main::class, 'index');
 
 ?>
