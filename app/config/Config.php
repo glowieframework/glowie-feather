@@ -40,7 +40,7 @@
             'cache' => true,
 
             // Cache files location
-            'path' => Util::location('storage/cache')
+            'path' => sys_get_temp_dir()
 
         ],
 
@@ -56,7 +56,7 @@
             'logging' => true,
 
             // Error log file location
-            'file' => Util::location('storage/error.log')
+            'file' => Util::location('../error.log')
 
         ],
 
@@ -73,7 +73,7 @@
             'gc_cleaning' => 50,
 
             // Session files location
-            'path' => Util::location('storage/session'),
+            'path' => sys_get_temp_dir(),
 
             // Allow session usage only in secure connections (https)
             'secure' => false,
@@ -133,7 +133,7 @@
         'cache' => [
 
             // Cache file path
-            'path' => Util::location('storage/cache/cache.tmp')
+            'path' => trim(sys_get_temp_dir(), DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . md5(Util::location()) . '.tmp'
 
         ],
 
