@@ -116,8 +116,22 @@
                 'db' => Env::get('DB_DATABASE', 'glowie'),
                 'port' => Env::get('DB_PORT', 3306),
                 'charset' => 'utf8',
-                'strict' => true
+                'strict' => false
             ]
+
+        ],
+
+        // Authentication settings
+        'auth' => [
+
+            // Users model
+            'model' => null,
+
+            // User field name
+            'user_field' => 'email',
+
+            // Password field name
+            'password_field' => 'password'
 
         ],
 
@@ -133,7 +147,7 @@
         'cache' => [
 
             // Cache file path
-            'path' => trim(sys_get_temp_dir(), DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . md5(Util::location()) . '.tmp'
+            'path' => sys_get_temp_dir() . '/' . md5(Util::location()) . '.tmp'
 
         ],
 
@@ -171,12 +185,16 @@
 
             // Sandbox class alias list
             'alias' => [
+                'Factory' => \Glowie\Core\Database\Factory::class,
                 'Kraken' => \Glowie\Core\Database\Kraken::class,
                 'Model' => \Glowie\Core\Database\Model::class,
                 'Skeleton' => \Glowie\Core\Database\Skeleton::class,
+                'Rails' => \Glowie\Core\Http\Rails::class,
+                'Cache' => \Glowie\Core\Tools\Cache::class,
                 'Crawler' => \Glowie\Core\Tools\Crawler::class,
                 'Mailer' => \Glowie\Core\Tools\Mailer::class,
                 'Validator' => \Glowie\Core\Tools\Validator::class,
+                'Collection' => \Glowie\Core\Collection::class,
                 'Element' => \Glowie\Core\Element::class
             ]
 
@@ -185,14 +203,14 @@
         // Application miscellaneous settings
         'other' => [
 
+            // Application URL (for CLI route mocking only)
+            'url' => 'http://localhost',
+
             // Default language
             'language' => 'en',
 
             // Default timezone
-            'timezone' => 'America/Sao_Paulo',
-
-            // Request variables precedence
-            'request_vars' => 'GET_POST'
+            'timezone' => 'America/Sao_Paulo'
 
         ]
 

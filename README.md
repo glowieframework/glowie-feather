@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://eugabrielsilva.tk/glowie" target="_blank"><img src="https://i.imgur.com/z8nq945.png" alt="Glowie" width="250"/></a>
+    <a href="https://gabrielsilva.dev.br/glowie" target="_blank"><img src="https://i.imgur.com/z8nq945.png" alt="Glowie" width="250"/></a>
 </p>
 
 <p align="center">
-    <a href="https://packagist.org/packages/glowieframework/glowie"><img src="https://img.shields.io/github/v/release/glowieframework/glowie" alt="Latest Version"></a>
-    <a href="https://packagist.org/packages/glowieframework/glowie" target="_blank"><img src="https://img.shields.io/packagist/dt/glowieframework/glowie" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/glowieframework/glowie"><img src="https://img.shields.io/github/v/release/glowieframework/glowie-core" alt="Latest Version"></a>
+    <a href="https://packagist.org/packages/glowieframework/glowie" target="_blank"><img src="https://img.shields.io/packagist/dt/glowieframework/glowie-core" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/glowieframework/glowie" target="_blank"><img src="https://img.shields.io/github/license/glowieframework/glowie" alt="License"></a>
     <a href="https://packagist.org/packages/glowieframework/glowie" target="_blank"><img src="https://img.shields.io/packagist/php-v/glowieframework/glowie" alt="PHP Version"></a>
 </p>
@@ -17,7 +17,7 @@ Glowie Feather is a starter kit for Glowie Framework with only the bare minimum 
 If you want a more complete starter kit, with examples and demos of the main features, check <a href="https://github.com/glowieframework/glowie">this repo</a>.
 
 ## Getting started
-[Explore the documentation](https://eugabrielsilva.tk/glowie/docs) to know how to start using Glowie to create something awesome.
+[Explore the documentation](https://gabrielsilva.dev.br/glowie/docs) to know how to start using Glowie to create something awesome.
 
 ## Credits
-Glowie is currently being developed by [Gabriel Silva](https://eugabrielsilva.tk).
+Glowie is currently being developed by [Gabriel Silva](https://gabrielsilva.dev.br).
