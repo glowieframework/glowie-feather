@@ -17,6 +17,10 @@ Glowie Feather is a starter kit for Glowie Framework with only the bare minimum 
 If you want a more complete starter kit, with examples and demos of the main features, check <a href="https://github.com/glowieframework/glowie">this repo</a>.
 
 ## Getting started
+```shell
+composer create-project glowieframework/glowie-feather
+```
+
 [Explore the documentation](https://gabrielsilva.dev.br/glowie/docs) to know how to start using Glowie to create something awesome.
 
 ## Credits
