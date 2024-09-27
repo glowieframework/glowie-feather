@@ -148,6 +148,17 @@ return [
 
     ],
 
+    // Queue settings
+    'queue' => [
+
+        // Queue jobs table name
+        'table' => 'queue',
+
+        // Max attempts to retry failed jobs
+        'max_attempts' => 3
+
+    ],
+
     // Cache settings
     'cache' => [
 

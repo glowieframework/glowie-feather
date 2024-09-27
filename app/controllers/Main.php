@@ -21,6 +21,8 @@ class Main extends Controller
      */
     public function index()
     {
-        $this->response->setBody('Glowie is awesome!');
+        $this->response->setJson([
+            'message' => 'Glowie is awesome!'
+        ]);
     }
 }
