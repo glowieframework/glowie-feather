@@ -11,7 +11,7 @@ use Glowie\Core\Http\Controller;
  * @author Glowie
  * @copyright Copyright (c) Glowie
  * @license MIT
- * @link https://gabrielsilva.dev.br/glowie
+ * @link https://glowie.gabrielsilva.dev.br
  */
 class Main extends Controller
 {
@@ -21,7 +21,7 @@ class Main extends Controller
      */
     public function index()
     {
-        $this->response->setJson([
+        return response()->setJson([
             'message' => 'Glowie is awesome!'
         ]);
     }

@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://gabrielsilva.dev.br/glowie" target="_blank"><img src="https://i.imgur.com/z8nq945.png" alt="Glowie" width="250"/></a>
+    <a href="https://glowie.gabrielsilva.dev.br" target="_blank"><img src="https://i.imgur.com/z8nq945.png" alt="Glowie" width="250"/></a>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ If you want a more complete starter kit, with examples and demos of the main fea
 composer create-project glowieframework/glowie-feather
 ```
 
-[Explore the documentation](https://gabrielsilva.dev.br/glowie/docs) to know how to start using Glowie to create something awesome.
+[Explore the documentation](https://glowie.gabrielsilva.dev.br/docs) to know how to start using Glowie to create something awesome.
 
 ## Credits
 Glowie is currently being developed by [Gabriel Silva](https://gabrielsilva.dev.br).
